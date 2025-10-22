@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/PH00558.jpg");
+    background-size: 100%;
+    direction: ltr;
+    text-align: center;
+    font-family: 'EFT_Authentica';
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 3vw;
+    left: 3vw;
+}
+
+#start {
+    right: 20vw;
+    left: 20vw;
+    top: 70vh;
+    color: black;
+}
+
+#instruction {
+    margin: auto;
+    position: fixed;
+    animation-name: instruction;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+#red1 {
+    color: #000;
+    border: 2px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff0000;
+    position: fixed;
+    animation-name: redd1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+#red2 {
+    color: #000;
+    border: 2px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff0000;
+    position: fixed;
+    animation-name: redd2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes redd1 {
+    0% {
+        top: 00px;
+        left: 20%;
+    }
+
+    25% {
+        top: 300px;
+        left: 40%;
+    }
+
+    50% {
+        top: 500px;
+        left: 60%;
+    }
+
+    75% {
+        top: 700px;
+        left: 80%;
+    }
+
+    100% {
+        top: 800px;
+        left: 90%;
+    }
+}
+
+@keyframes redd2 {
+    0% {
+        top: 800px;
+        left: 90%;
+    }
+
+    25% {
+        top: 700px;
+        left: 80%;
+    }
+
+    50% {
+        top: 500px;
+        left: 60%;
+    }
+
+    75% {
+        top: 300px;
+        left: 40%;
+
+    }
+
+    100% {
+        top: 200px;
+        left: 20%;
+    }
+}
+
+#green1 {
+    color: #000;
+    border: 2px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 255, 13);
+    position: fixed;
+    animation-name: greenn1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+#green2 {
+    color: #000;
+    border: 2px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(0, 255, 13);
+    animation-name: greenn2;
+    animation-duration: 4.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+
+@keyframes greenn1 {
+    0% {
+        top: 800px;
+        left: 20%;
+    }
+
+    25% {
+        top: 700px;
+        left: 40%;
+    }
+
+    50% {
+        top: 500px;
+        left: 60%;
+    }
+
+    75% {
+        top: 300px;
+        left: 80%;
+    }
+
+    100% {
+        top: 200px;
+        left: 90%;
+    }
+}
+
+@keyframes greenn2 {
+    0% {
+        top: 100px;
+        left: 40%;
+    }
+
+    25% {
+        top: 700px;
+        left: 50%;
+    }
+
+    50% {
+        top: 600px;
+        left: 60%;
+    }
+
+    75% {
+        top: 800px;
+        left: 70%;
+
+    }
+
+    100% {
+        top: 900px;
+        left: 80%;
+    }
+}
+
+
+#blue1 {
+    color: #000;
+    border: 2px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 132, 255);
+    position: fixed;
+    animation-name: bluee1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+#blue2 {
+    color: #000;
+    border: 2px;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(0, 132, 255);
+    animation-name: bluee2;
+    animation-duration: 4.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+
+@keyframes bluee1 {
+    0% {
+        top: 700px;
+        left: 50%;
+    }
+
+    25% {
+        top: 600px;
+        left: 40%;
+    }
+
+    50% {
+        top: 500px;
+        left: 30%;
+    }
+
+    75% {
+        top: 400px;
+        left: 40%;
+    }
+
+    100% {
+        top: 300px;
+        left: 70%;
+    }
+}
+
+@keyframes bluee2 {
+    0% {
+        top: 100px;
+        left: 100%;
+    }
+
+    25% {
+        top: 200px;
+        left: 80%;
+    }
+
+    50% {
+        top: 400px;
+        left: 60%;
+    }
+
+    75% {
+        top: 600px;
+        left: 40%;
+
+    }
+
+    100% {
+        top: 800px;
+        left: 20%;
+    }
+}
+
+@keyframes instruction {
+    0% {
+        bottom: -700px;
+        left: 40%;
+        color: rgb(255, 255, 255);
+    }
+
+    25% {
+        bottom: -500px;
+        left: 40%;
+        color: rgb(255, 0, 0);
+    }
+
+    50% {
+        bottom: -300px;
+        left: 40%;
+        color: rgb(0, 132, 255);
+    }
+
+    75% {
+        bottom: -100px;
+        left: 40%;
+        color: rgb(255, 0, 0);
+    }
+
+    100% {
+        bottom: 100px;
+        left: 40%;
+        color: rgb(129, 255, 97);
+    }
+}

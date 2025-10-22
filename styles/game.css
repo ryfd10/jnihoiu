@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Segoe Script;
+    overflow: hidden;
+}
+#game{
+    background-image: url("../assets/PH00558.jpg");
+    background-size: 100%;
+    position: absolute;
+}
+
+ #board img{
+    width: 1525px;
+    height: 50px;
+    margin-top:0px;
+
+  
+    margin-left:480px;
+}
+h1{
+    margin: 0;
+    font-size: 200px;
+} 
+h2{
+    position: fixed;
+    top:100px;
+    left: 60px;
+    z-index: 100;
+    text-align: center;
+    width: 210px;
+    height:160px;
+    font-size: 80px;
+    text-shadow: black 1px 1px;
+    font-weight: 900;
+    color: rgb(240, 54, 54);
+}
+
+#footer{
+    position: fixed;
+    top:870px;
+    left:760px;
+    z-index: 100;
+    text-align: center;
+    height:200px;
+    font-size: 30px; 
+    text-shadow: black 1px 1px;
+    font-weight: 900;
+    color: rgba(149, 86, 4, 0.789);
+}
+#hen{
+    direction: rtl;
+    padding-bottom: 0px;
+}
+#hen img{
+    width: 200px;
+    height:130px;
+    
+    z-index: 20000;
+} 
+#timer{
+    position: fixed;
+    top:50px;
+    left: 100px;
+    z-index: 100;
+    text-align: center;
+    width: 210px;
+    height:160px;
+    font-size: 80px;
+    text-shadow: black 1px 1px;
+    font-weight: 900;
+    color: rgba(111, 240, 6, 0.789);
+} 
+.endGame{
+    position: relative;
+    top:100px;
+    left: 500px;
+    width:1000px;
+    height: 700px;
+    z-index: 666;
+    color: red;
+}
+.endGame img{
+    width: 100%;   
+}
+
+#save{
+    cursor: pointer;
+    position: fixed;
+    top:450px;
+    left: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: 50px; 
+    text-shadow: black 1px 1px;
+    font-weight: 900;
+    color: rgba(149, 86, 4, 0.789);
+    border: 3px solid rgba(149, 86, 4, 0.789);
+   
+}
+#open{
+    cursor: pointer;
+    margin-top: 30px;
+    position: fixed;
+    top:550px;
+    left: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: 50px; 
+    text-shadow: black 1px 1px;
+    font-weight: 900;
+    color: rgba(149, 86, 4, 0.789); 
+    border:3px solid rgba(149, 86, 4, 0.789);   
+} 
+.win {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Tahoma;
+    font-size: 1.5rem;
+    translate: all 2s linear;
+    display: none;
+}
+
+
+.win input {
+    font-family: Tahoma;
+    font-size: 1.5rem;
+}
+
+.win .modal {
+    box-shadow: 0px 0px 10px 4px;
+    width: 50%;
+    height: 50vh;
+    position: fixed;
+    top: 25vh;
+    left: 25%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    translate: all 2s linear;
+}
+
+.win .modal .modal-header {
+    text-align: center;
+    border-bottom: 2px solid black;
+
+}
+
+.win .modal .modal-header h2 {
+    margin-bottom: 3px;
+}
+
+.win .modal .btn-row {
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.win .modal input {
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.win .modal div {
+    display: flex;
+    justify-content: center;
+}
+
+
+input.btn {
+    position: relative;
+    border: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+input.btn.btn-regular {
+    background-color: rgb(248, 239, 239);
+    border-bottom: 4px solid rgb(101, 104, 101);
+}
+
+
+input.btn.btn-success {
+    background-color: rgb(12, 215, 12);
+    border-bottom: 4px solid rgb(13, 140, 13);
+}
+
+input.btn:active {
+    height: 43px;
+    top: 2px;
+    border-bottom: transparent;
+}
+
+.win.show {
+    display: block
+}
+#allsave{
+    position: fixed;
+    margin-top: 0px; 
+}

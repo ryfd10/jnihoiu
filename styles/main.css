@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    position: fixed;
+}
+
+img {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    left: 20vw;
+    position: fixed;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.644);
+    font-family: cursive;
+
+}
+
+H2 {
+    position: fixed;
+    font-size: 50PX;
+    font-family: cursive;
+}
+
+a{
+    background-image: url("../assets/red.jpg");
+    color: rgba(0, 0, 0, 0.541);
+    font-family: cursive;
+}
+
+#a{
+    direction: ltr;
+    text-align: center;
+    font-family: 'EFT_Authentica';
+    font-size: 130px;
+    top: 70vh;
+    right: 15vw;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(128, 255, 0, 0.514);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+#b{
+    direction: ltr;
+    text-align: center;
+    font-family: 'EFT_Authentica';
+    font-size: 130px;
+    top: 70vh;
+    right: 40vw;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(255, 0, 0, 0.637);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+#c{
+    direction: ltr;
+    text-align: center;
+    font-family: 'EFT_Authentica';
+    font-size: 130px;
+    top: 70vh;
+    right: 65vw;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(0, 174, 255, 0.623);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+h3{
+    font-family: 'EFT_Authentica';
+    color: rgba(211, 28, 28, 0.659);
+    font-size: 70px;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 3vw;
+    left: 3vw;
+}
+
+#start{
+    right: 20vw;
+    left: 20vw;
+    top: 70vh;
+    font-size: 100px;
+}
+#shelf img{
+    width: 500px;
+    height: 90px;
+    margin-top: 600px;
+    margin-left: 600px;
+
+}
+#balls{
+    display: grid;
+    position: fixed;
+    font-size: 80px;
+    left:500px;
+    top:82vh;
+
+}
+#A{
+    left:390px;
+    color: rgb(255, 62, 62);
+}
+#B{
+    left:435px;
+    color: rgb(38, 250, 91);
+}
+#C{
+    left:480px;
+    color: rgb(143, 31, 247);
+}
+#D{
+    left:520px;
+    color: rgb(220, 240, 44);
+}
